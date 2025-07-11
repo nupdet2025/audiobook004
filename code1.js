@@ -10,6 +10,8 @@ gdjs.Pagina_9502Code.GDbefore_9595pageObjects1= [];
 gdjs.Pagina_9502Code.GDbefore_9595pageObjects2= [];
 gdjs.Pagina_9502Code.GDcursorObjects1= [];
 gdjs.Pagina_9502Code.GDcursorObjects2= [];
+gdjs.Pagina_9502Code.GDreloadObjects1= [];
+gdjs.Pagina_9502Code.GDreloadObjects2= [];
 
 
 gdjs.Pagina_9502Code.asyncCallback9928404 = function (runtimeScene, asyncObjectsList) {
@@ -165,6 +167,27 @@ gdjs.Pagina_9502Code.eventsList1(runtimeScene);} //End of subevents
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("reload"), gdjs.Pagina_9502Code.GDreloadObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Pagina_9502Code.GDreloadObjects1.length;i<l;++i) {
+    if ( gdjs.Pagina_9502Code.GDreloadObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Pagina_9502Code.GDreloadObjects1[k] = gdjs.Pagina_9502Code.GDreloadObjects1[i];
+        ++k;
+    }
+}
+gdjs.Pagina_9502Code.GDreloadObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_01.mp3", 2, false, 100, 1);
+}}
+
+}
+
+
 };
 
 gdjs.Pagina_9502Code.func = function(runtimeScene) {
@@ -180,6 +203,8 @@ gdjs.Pagina_9502Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9502Code.GDbefore_9595pageObjects2.length = 0;
 gdjs.Pagina_9502Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9502Code.GDcursorObjects2.length = 0;
+gdjs.Pagina_9502Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9502Code.GDreloadObjects2.length = 0;
 
 gdjs.Pagina_9502Code.eventsList2(runtimeScene);
 gdjs.Pagina_9502Code.GDbackgroundObjects1.length = 0;
@@ -192,6 +217,8 @@ gdjs.Pagina_9502Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9502Code.GDbefore_9595pageObjects2.length = 0;
 gdjs.Pagina_9502Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9502Code.GDcursorObjects2.length = 0;
+gdjs.Pagina_9502Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9502Code.GDreloadObjects2.length = 0;
 
 
 return;

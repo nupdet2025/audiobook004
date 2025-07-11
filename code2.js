@@ -10,6 +10,8 @@ gdjs.Pagina_9503Code.GDcursorObjects1= [];
 gdjs.Pagina_9503Code.GDcursorObjects2= [];
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects1= [];
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects2= [];
+gdjs.Pagina_9503Code.GDreloadObjects1= [];
+gdjs.Pagina_9503Code.GDreloadObjects2= [];
 
 
 gdjs.Pagina_9503Code.asyncCallback8371444 = function (runtimeScene, asyncObjectsList) {
@@ -142,6 +144,27 @@ gdjs.Pagina_9503Code.eventsList0(runtimeScene);} //End of subevents
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("reload"), gdjs.Pagina_9503Code.GDreloadObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Pagina_9503Code.GDreloadObjects1.length;i<l;++i) {
+    if ( gdjs.Pagina_9503Code.GDreloadObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.Pagina_9503Code.GDreloadObjects1[k] = gdjs.Pagina_9503Code.GDreloadObjects1[i];
+        ++k;
+    }
+}
+gdjs.Pagina_9503Code.GDreloadObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_02.mp3", 2, false, 100, 1);
+}}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 {
@@ -165,6 +188,8 @@ gdjs.Pagina_9503Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9503Code.GDcursorObjects2.length = 0;
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects2.length = 0;
+gdjs.Pagina_9503Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9503Code.GDreloadObjects2.length = 0;
 
 gdjs.Pagina_9503Code.eventsList1(runtimeScene);
 gdjs.Pagina_9503Code.GDbackgroundObjects1.length = 0;
@@ -177,6 +202,8 @@ gdjs.Pagina_9503Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9503Code.GDcursorObjects2.length = 0;
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9503Code.GDbefore_9595pageObjects2.length = 0;
+gdjs.Pagina_9503Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9503Code.GDreloadObjects2.length = 0;
 
 
 return;

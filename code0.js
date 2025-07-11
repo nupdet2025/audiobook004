@@ -10,6 +10,8 @@ gdjs.Pagina_9501Code.GDbefore_9595pageObjects1= [];
 gdjs.Pagina_9501Code.GDbefore_9595pageObjects2= [];
 gdjs.Pagina_9501Code.GDcursorObjects1= [];
 gdjs.Pagina_9501Code.GDcursorObjects2= [];
+gdjs.Pagina_9501Code.GDreloadObjects1= [];
+gdjs.Pagina_9501Code.GDreloadObjects2= [];
 
 
 gdjs.Pagina_9501Code.asyncCallback9931764 = function (runtimeScene, asyncObjectsList) {
@@ -138,6 +140,8 @@ gdjs.Pagina_9501Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9501Code.GDbefore_9595pageObjects2.length = 0;
 gdjs.Pagina_9501Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9501Code.GDcursorObjects2.length = 0;
+gdjs.Pagina_9501Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9501Code.GDreloadObjects2.length = 0;
 
 gdjs.Pagina_9501Code.eventsList1(runtimeScene);
 gdjs.Pagina_9501Code.GDbackgroundObjects1.length = 0;
@@ -150,6 +154,8 @@ gdjs.Pagina_9501Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_9501Code.GDbefore_9595pageObjects2.length = 0;
 gdjs.Pagina_9501Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_9501Code.GDcursorObjects2.length = 0;
+gdjs.Pagina_9501Code.GDreloadObjects1.length = 0;
+gdjs.Pagina_9501Code.GDreloadObjects2.length = 0;
 
 
 return;
