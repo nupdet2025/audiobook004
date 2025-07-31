@@ -14,7 +14,7 @@ gdjs.Pagina_9508Code.GDreloadObjects1= [];
 gdjs.Pagina_9508Code.GDreloadObjects2= [];
 
 
-gdjs.Pagina_9508Code.asyncCallback16346036 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_9508Code.asyncCallback14714852 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_09", false);
@@ -29,16 +29,17 @@ gdjs.Pagina_9508Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback16346036(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback14714852(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_9508Code.asyncCallback16347756 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_9508Code.asyncCallback14716572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_02.mp3", 1, true, 100, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_07", false);
 }gdjs.Pagina_9508Code.localVariables.length = 0;
 }
@@ -51,7 +52,7 @@ gdjs.Pagina_9508Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback16347756(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback14716572(runtimeScene, asyncObjectsList)));
 }
 }
 

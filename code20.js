@@ -10,11 +10,11 @@ gdjs.Pagina_95020Code.GDcursorObjects1= [];
 gdjs.Pagina_95020Code.GDcursorObjects2= [];
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects1= [];
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects2= [];
-gdjs.Pagina_95020Code.GDreloadObjects1= [];
-gdjs.Pagina_95020Code.GDreloadObjects2= [];
+gdjs.Pagina_95020Code.GDrecome_95231arObjects1= [];
+gdjs.Pagina_95020Code.GDrecome_95231arObjects2= [];
 
 
-gdjs.Pagina_95020Code.asyncCallback16807132 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_95020Code.asyncCallback15131220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_03", false);
@@ -29,14 +29,14 @@ gdjs.Pagina_95020Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95020Code.asyncCallback16807132(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95020Code.asyncCallback15131220(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_95020Code.asyncCallback16808852 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_95020Code.asyncCallback15132940 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_019", false);
@@ -51,14 +51,35 @@ gdjs.Pagina_95020Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95020Code.asyncCallback16808852(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95020Code.asyncCallback15132940(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_95020Code.eventsList2 = function(runtimeScene) {
+};gdjs.Pagina_95020Code.asyncCallback11409628 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro", false);
+}gdjs.Pagina_95020Code.localVariables.length = 0;
+}
+gdjs.Pagina_95020Code.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95020Code.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95020Code.asyncCallback11409628(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.Pagina_95020Code.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -103,8 +124,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_011.mp3", 2, false, 100, 1);
-}}
+}
 
 }
 
@@ -169,21 +189,25 @@ gdjs.Pagina_95020Code.eventsList1(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("reload"), gdjs.Pagina_95020Code.GDreloadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("recomeçar"), gdjs.Pagina_95020Code.GDrecome_95231arObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Pagina_95020Code.GDreloadObjects1.length;i<l;++i) {
-    if ( gdjs.Pagina_95020Code.GDreloadObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.Pagina_95020Code.GDrecome_95231arObjects1.length;i<l;++i) {
+    if ( gdjs.Pagina_95020Code.GDrecome_95231arObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.Pagina_95020Code.GDreloadObjects1[k] = gdjs.Pagina_95020Code.GDreloadObjects1[i];
+        gdjs.Pagina_95020Code.GDrecome_95231arObjects1[k] = gdjs.Pagina_95020Code.GDrecome_95231arObjects1[i];
         ++k;
     }
 }
-gdjs.Pagina_95020Code.GDreloadObjects1.length = k;
+gdjs.Pagina_95020Code.GDrecome_95231arObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_011.mp3", 2, false, 100, 1);
-}}
+{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 100, 1);
+}
+{ //Subevents
+gdjs.Pagina_95020Code.eventsList2(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -213,10 +237,10 @@ gdjs.Pagina_95020Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_95020Code.GDcursorObjects2.length = 0;
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects2.length = 0;
-gdjs.Pagina_95020Code.GDreloadObjects1.length = 0;
-gdjs.Pagina_95020Code.GDreloadObjects2.length = 0;
+gdjs.Pagina_95020Code.GDrecome_95231arObjects1.length = 0;
+gdjs.Pagina_95020Code.GDrecome_95231arObjects2.length = 0;
 
-gdjs.Pagina_95020Code.eventsList2(runtimeScene);
+gdjs.Pagina_95020Code.eventsList3(runtimeScene);
 gdjs.Pagina_95020Code.GDbackgroundObjects1.length = 0;
 gdjs.Pagina_95020Code.GDbackgroundObjects2.length = 0;
 gdjs.Pagina_95020Code.GDpag_959501_959502Objects1.length = 0;
@@ -227,8 +251,8 @@ gdjs.Pagina_95020Code.GDcursorObjects1.length = 0;
 gdjs.Pagina_95020Code.GDcursorObjects2.length = 0;
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects1.length = 0;
 gdjs.Pagina_95020Code.GDbefore_9595pageObjects2.length = 0;
-gdjs.Pagina_95020Code.GDreloadObjects1.length = 0;
-gdjs.Pagina_95020Code.GDreloadObjects2.length = 0;
+gdjs.Pagina_95020Code.GDrecome_95231arObjects1.length = 0;
+gdjs.Pagina_95020Code.GDrecome_95231arObjects2.length = 0;
 
 
 return;
