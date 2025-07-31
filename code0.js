@@ -26,7 +26,7 @@ gdjs.IntroCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.IntroCode.asyncCallback14446196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback14446196(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -99,7 +99,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_01.mp3", 1, true, 30, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_01.mp3", 1, true, 20, 1);
 }
 { //Subevents
 gdjs.IntroCode.eventsList0(runtimeScene);} //End of subevents

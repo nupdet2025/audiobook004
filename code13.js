@@ -104,7 +104,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_013.mp3", 2, false, 100, 1);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_04.mp3", 1, true, 30, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_04.mp3", 1, true, 10, 1);
 }}
 
 }

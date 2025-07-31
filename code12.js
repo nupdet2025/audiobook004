@@ -39,7 +39,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 };gdjs.Pagina_95012Code.asyncCallback14853988 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95012Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_03.mp3", 1, true, 40, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_03.mp3", 1, true, 30, 1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_011", false);
 }gdjs.Pagina_95012Code.localVariables.length = 0;
 }

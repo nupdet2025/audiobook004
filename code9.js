@@ -103,9 +103,9 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_09.mp3", 2, false, 100, 1);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_03.mp3", 1, true, 30, 1);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\ambient_sound_02.mp3", 3, true, 100, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_03.mp3", 1, true, 20, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_09.mp3", 2, false, 100, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\ambient_sound_02.mp3", 3, true, 30, 1);
 }}
 
 }
@@ -159,9 +159,9 @@ gdjs.copyArray(runtimeScene.getObjects("pag_01_02"), gdjs.Pagina_9509Code.GDpag_
 {for(var i = 0, len = gdjs.Pagina_9509Code.GDpag_959501_959502Objects1.length ;i < len;++i) {
     gdjs.Pagina_9509Code.GDpag_959501_959502Objects1[i].getBehavior("Animation").setAnimationName("volta");
 }
+}{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
 }{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 2, 0, 0.5);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\flip_page.mp3", false, 100, 1);
-}{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
 }
 { //Subevents
 gdjs.Pagina_9509Code.eventsList1(runtimeScene);} //End of subevents
