@@ -184,19 +184,6 @@ if (isConditionTrue_0) {
 }
 
 
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.advancedWindow.isFocused(runtimeScene));
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.pauseSoundOnChannel(runtimeScene, 2);
-}}
-
-}
-
-
 };
 
 gdjs.Pagina_9501Code.func = function(runtimeScene) {
