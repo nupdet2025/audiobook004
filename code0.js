@@ -12,7 +12,7 @@ gdjs.IntroCode.GDreloadObjects1= [];
 gdjs.IntroCode.GDreloadObjects2= [];
 
 
-gdjs.IntroCode.asyncCallback14446196 = function (runtimeScene, asyncObjectsList) {
+gdjs.IntroCode.asyncCallback15696972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\Audio_Intro.mp3", 2, false, 100, 1);
 }gdjs.IntroCode.localVariables.length = 0;
@@ -26,14 +26,14 @@ gdjs.IntroCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback14446196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.IntroCode.asyncCallback15696972(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.IntroCode.asyncCallback14447428 = function (runtimeScene, asyncObjectsList) {
+};gdjs.IntroCode.asyncCallback15698204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_01", false);
 }gdjs.IntroCode.localVariables.length = 0;
@@ -47,7 +47,7 @@ gdjs.IntroCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.IntroCode.asyncCallback14447428(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.IntroCode.asyncCallback15698204(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -123,7 +123,7 @@ for (var i = 0, k = 0, l = gdjs.IntroCode.GDstartObjects1.length;i<l;++i) {
 }
 gdjs.IntroCode.GDstartObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets\\btn_press.mp3", false, 40, 1);
 }{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 2, 0, 0.5);
 }
 { //Subevents

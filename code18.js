@@ -14,7 +14,7 @@ gdjs.Pagina_95018Code.GDreloadObjects1= [];
 gdjs.Pagina_95018Code.GDreloadObjects2= [];
 
 
-gdjs.Pagina_95018Code.asyncCallback15060388 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_95018Code.asyncCallback16385356 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95018Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_019", false);
@@ -29,14 +29,14 @@ gdjs.Pagina_95018Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95018Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95018Code.asyncCallback15060388(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95018Code.asyncCallback16385356(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_95018Code.asyncCallback15062108 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_95018Code.asyncCallback16387244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95018Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_017", false);
@@ -51,7 +51,7 @@ gdjs.Pagina_95018Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95018Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95018Code.asyncCallback15062108(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95018Code.asyncCallback16387244(runtimeScene, asyncObjectsList)));
 }
 }
 

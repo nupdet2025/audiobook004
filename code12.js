@@ -14,7 +14,7 @@ gdjs.Pagina_95012Code.GDreloadObjects1= [];
 gdjs.Pagina_95012Code.GDreloadObjects2= [];
 
 
-gdjs.Pagina_95012Code.asyncCallback14852268 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_95012Code.asyncCallback16152308 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95012Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_013", false);
@@ -29,14 +29,14 @@ gdjs.Pagina_95012Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95012Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95012Code.asyncCallback14852268(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95012Code.asyncCallback16152308(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_95012Code.asyncCallback14853988 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_95012Code.asyncCallback16154028 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_95012Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\bgm_03.mp3", 1, true, 30, 1);
@@ -52,7 +52,7 @@ gdjs.Pagina_95012Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_95012Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95012Code.asyncCallback14853988(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_95012Code.asyncCallback16154028(runtimeScene, asyncObjectsList)));
 }
 }
 
